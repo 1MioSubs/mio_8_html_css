@@ -1,0 +1,47 @@
+$accent: #000;
+$default: #000;
+$title: #4D533C;
+$textmain: rgba(33, 56, 66, 0.60);
+$bg: #000;
+
+
+%roboto-400 {
+  font-family: 'Roboto-Regular', sans-serif;
+  font-weight: 400;
+}
+
+%roboto-500 {
+  font-family: 'Roboto-Medium', sans-serif;
+  font-weight: 500;
+}
+
+%roboto-700 {
+  font-family: 'Roboto-Bold', sans-serif;
+  font-weight: 700;
+}
+
+
+%poppins-400-i {
+  font-family: 'Poppins-Italic', sans-serif;
+  font-weight: 400;
+}
+
+%poppins-400 {
+  font-family: 'Poppins-Regular', sans-serif;
+  font-weight: 400;
+}
+
+%poppins-500 {
+  font-family: 'Poppins-Medium', sans-serif;
+  font-weight: 500;
+}
+
+%poppins-600 {
+  font-family: 'Poppins-SemiBold', sans-serif;
+  font-weight: 600;
+}
+
+%poppins-700 {
+  font-family: 'Poppins-Bold', sans-serif;
+  font-weight: 700;
+}

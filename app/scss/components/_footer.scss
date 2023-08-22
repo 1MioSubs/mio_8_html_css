@@ -1,0 +1,102 @@
+.footer {
+  background-image: url(../images/footer_fon.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  &__inner {
+    padding: 310px 165px 30px;
+  }
+  &__top {
+    display: flex;
+    gap: 128px;
+    padding-bottom: 52px;
+    border-bottom: 1px solid #5d6544;
+    &-title {
+      color: #b6c197;
+      @extend %poppins-400;
+      font-size: 16px;
+      line-height: 40px; /* 250% */
+      margin-bottom: 8px;
+    }
+    &-info {
+      color: #fff;
+      @extend %poppins-700;
+      font-size: 16px;
+      line-height: 40px; /* 250% */
+    }
+  }
+  &__middle {
+    padding: 60px 0;
+    border-bottom: 1px solid #5d6544;
+    display: flex;
+    justify-content: space-between;
+    &-title {
+      color: #fff;
+      @extend %poppins-600;
+      font-size: 16px;
+      line-height: 38px; /* 237.5% */
+      text-transform: uppercase;
+      margin-bottom: 21px;
+    }
+    &-link {
+      color: #b6c197;
+      @extend %poppins-400;
+      font-size: 16px;
+      line-height: 40px; /* 250% */
+    }
+    &-text {
+      color: #b6c197;
+      @extend %poppins-400;
+      font-size: 16px;
+      line-height: 26px;
+      width: 270px;
+      margin-bottom: 23px;
+    }
+    &-email {
+      color: #fff;
+      @extend %poppins-700;
+      font-size: 24px;
+      line-height: 38px;
+      display: block;
+      margin-bottom: 23px;
+    }
+    &-social {
+      &_list {
+        display: flex;
+        gap: 11px;
+      }
+      &_item {
+        background-color: #444a34;
+        border-radius: 50%;
+        min-width: 33px;
+        min-height: 33px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        &:hover {
+          background-color: #ffd723;
+        }
+      }
+      &_link {
+        display: block;
+        width: 100%;
+        height: 100%;
+        // background-image: url(../images/icons/facebook.svg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 20px;
+      }
+    }
+  }
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+    &-text {
+      color: #b5c096;
+      @extend %poppins-400;
+      font-size: 14px;
+    }
+  }
+}
